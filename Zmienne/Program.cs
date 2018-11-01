@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Zmienne
 {
@@ -13,7 +9,7 @@ namespace Zmienne
    {
       static void Main(string[] args)
       {
-         Console.WriteLine("Stale i operacje matematyczne");
+         Console.WriteLine("Aktywny projekt - Zmienne");
 
          // zmienne to najprościej opisując pudełeczka na dane.
          // technicznie jest to informacja dla kompilatora, że ma dla nas zarezerwować miejsce w pamięci na przychowywania danych.
@@ -46,7 +42,7 @@ namespace Zmienne
          Console.WriteLine("Zmienna b ma wartość {0}, natomiastz mienna 'znak' {1}", b, znak); // w taki sposób mozna formatować wyjście
          Console.WriteLine($"Zmienna b ma wartość {b}, natomiastz mienna 'znak' {znak}"); // od wersji C# 6 (.Net Framework 4.6) dostępna jest funkcjonalność interpolacji stringów
 
-         Console.ReadLine(); // dodajemy zawsze na koniec w aplikacjach konsolowych, aby po wykonaniu programy zobaczyć wyniki (inaczej konsola nam się zamknie)
+         Console.ReadKey(); // dodajemy zawsze na koniec w aplikacjach konsolowych, aby po wykonaniu programy zobaczyć wyniki (inaczej konsola nam się zamknie)
       }
    }
 }
