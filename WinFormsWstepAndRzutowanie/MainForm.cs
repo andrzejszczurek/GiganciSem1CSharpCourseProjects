@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormsWstepAndRzutowanie
 {
-   public partial class Form1 : Form
+   public partial class MainForm : Form
    {
-      public Form1()
+      public MainForm()
       {
          // na chwilę obecną to co musimy wiedzieć o tej części kodu to, że wszystko co jest w tych klamrach wykonuję się
          // w momencie tworzenia naszego okienka - jest to miejsce gdzie możemy ustawiać dodatkowe własności kontrolek formularza
@@ -58,7 +58,7 @@ namespace WinFormsWstepAndRzutowanie
          // dzieleniem w naszym przypadku jest dzieleniem całkowitym, bo wykonujemy je na dwóch liczbach całkowitych
          // int / int = int, przez co stracilibyśmy część dziesiętną średniej. Zeby temu zapobieć potrzebujemy mieć dzielną jako lczbę zmiennoprzecinkową
          // w tym wypadku nalezy zastosować rzutowanie - zamianę jednego typu na inny
-         double srednia = (double)suma / 6;  // rzutujemy sume na typ double i dopiero dzielimy
+         double srednia = (double)suma / liczbaPrzedmiotow;  // rzutujemy sume na typ double i dopiero dzielimy
 
 
          // to tb można wpisać tylko tekst dlatego musimy srednia zamienić na tekst

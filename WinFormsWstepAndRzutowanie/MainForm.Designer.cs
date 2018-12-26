@@ -1,6 +1,6 @@
 ﻿namespace WinFormsWstepAndRzutowanie
 {
-   partial class Form1
+   partial class MainForm
    {
       /// <summary>
       /// Required designer variable.
@@ -155,7 +155,7 @@
          this.label6.TabIndex = 12;
          this.label6.Text = "WYNIK:";
          // 
-         // Form1
+         // MainForm
          // 
          this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -173,7 +173,7 @@
          this.Controls.Add(this.label2);
          this.Controls.Add(this.label1);
          this.Controls.Add(this.btnOblicz);
-         this.Name = "Form1";
+         this.Name = "MainForm";
          this.Text = "Średnia ocen";
          this.ResumeLayout(false);
          this.PerformLayout();
